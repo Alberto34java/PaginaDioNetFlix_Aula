@@ -6,8 +6,327 @@ body{
     background-color: black;
 }
 section#inicio{
-    background: url('./img/netflix.png') no-repeat;
+    background: url('../img/netflix.png') no-repeat;
     min-width: auto;
     min-height: 650px;
     margin: 0%;
+}
+/* OUTRAS FORMATACOES */
+
+#inicio h1{
+    color: red;
+    font-size: 30pt;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section.assista-onde-quiser, section.baixe-series
+{
+    margin: 300px 200px;
+    min-width: auto;
+    min-height: 300px;
+}
+#inicio {
+    color: white;
+    
+    align-items: center;
+    margin-left: 200px;
+   
+}
+/*  REFAZENDO A PAGINA DO NETFLIX  */
+#inicio header .botoes-header select.idioma{
+   min-height: 40px;
+   min-width: 160px;
+   background-color: black;
+   color: white;
+   font-size: 16pt;
+   margin-top: 45px;
+   cursor: pointer;
+}
+#inicio .botoes-header {
+    
+    
+    padding: 0%;
+}
+/*#inicio*/ header .botoes-header button.entrar{
+    min-height: 40px;
+   min-width: 100px;
+   margin-left: 25px;
+   background-color: red;
+   color: white;
+   font-size: 16pt;
+   border-radius: 6px;
+   cursor: pointer;
+   
+   
+}
+div.botoes-header{
+    min-width: 280px;
+    padding: 15px;
+    background-color:transparent;
+    margin-left: 950px;
+}
+div.botoes-header button.entrar{ margin-bottom: 75px;}
+
+nav {
+    margin-left: 250px;
+}
+
+/* formatacao dos Primeiros Paragrafos */
+nav div.texto  p.primeiro,  nav div.texto p.meio {
+    font-size: 35pt;
+} 
+nav div.texto p.segundo{
+    font-size: 20pt;
+    margin-top: 20px;
+}
+nav div.texto p.terceiro{
+    font-size: 16pt;
+    margin-top: 20px;
+    
+}
+nav form {
+    padding-top: 10px;
+}
+nav form input{
+    min-width: 450px;
+    min-height: 60px;
+    cursor: pointer;
+   
+
+}
+nav form button{
+    
+    min-width: 200px;
+    min-height: 64px;
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+/**/
+
+/* AFASTANDO TITULO DA LATERAL */
+header h1{
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+
+
+/*  SEÇÕES DA PÁGINA SEM VÍDEOS */
+
+section.assista-em-qualquer-aparelho{
+    min-height: 500px;
+}
+
+/* APLICANDO NOS PARAGRÁFOS DA PÁGINA */
+section.assista-em-qualquer-aparelho div.textos{
+    margin-left: 70px;
+    margin-top: 160px;
+    min-width: auto;
+}
+
+/*APLICANDO PRIMEIRA FORMATACAO PARAGRAFOS 1 E 2 */
+
+section.assista-em-qualquer-aparelho div.textos p.primeiro
+{
+      font-size: 35pt;
+      color: white;
+}
+section.assista-em-qualquer-aparelho div.textos p.segundo,
+section.assista-em-qualquer-aparelho div.textos p.terceiro{
+    font-size: 20pt;
+    color: white;
+}
+
+section.assista-em-qualquer-aparelho div.textos p.quatro{
+    font-size: 16pt;
+}
+
+/* COMPONENTE QUE CARREGÁRA IMAGENS DA PAGINA */
+section.assista-em-qualquer-aparelho div.iframe{
+     margin-left: 750px;
+     margin-top: -160px;
+}
+
+
+/* SEGUNDO BLOCO DA PAGINA */
+
+section.assista-em-qualquer-aparelho,
+section.baixe-series
+{
+
+    min-height: 500px;    
+    min-width: auto;
+    margin: 0;
+    border: #0c0c0c solid 10px; 
+    background-color: black;
+    color: white;
+       }
+
+       /* formatacao dos textos da Terceira Section*/
+       section.baixe-series div.textos p.primeiro, section.baixe-series div.textos p.segundo{
+           font-size: 40pt;
+
+       }
+       section.baixe-series div.textos p.terceiro, section.baixe-series div.textos p.quatro{
+           font-size: 20pt;
+       }
+
+
+       section.baixe-series div.textos{
+           /*margin-top: 120px;*/ padding-top: 150px;
+        margin-left: 750px;
+       }
+
+       section.baixe-series div.baixe-series{ margin-left: 70px; 
+       margin-top: -280px;
+       }
+
+       /* QUARTA SECTION DA PÁGINA */
+       section.assista-quando-quiser {
+           min-width: auto;
+           min-height: 600px; }
+
+           section.assista-quando-quiser div.assista-quando-quiser{
+
+               margin-left: 750px;
+               /*margin-bottom: 120px;*/
+               margin-top: -200px;
+            }
+           section.assista-quando-quiser div.textos{
+
+               margin-left: 70px;
+               color: white;
+               margin-top: 160px;
+            }
+
+            section.assista-quando-quiser div.textos p.primeiro, section.assista-quando-quiser div.textos p.segundo
+            {
+                font-size: 40pt;
+            }
+
+            section.assista-quando-quiser div.textos p.terceiro,
+            section.assista-quando-quiser div.textos p.quatro
+            {
+                font-size: 20pt;
+            } 
+
+/*  SECTION PERGUNTAS FREQUENTES COM OS BOTOES DE ITERAÇÃO*/
+section.perguntas-frequentes{
+min-height: 650px;
+background-color: black;
+
+color: white;
+border: #0c0c0c solid 10px; 
+
+}
+
+/*   ALTERANDO POSICAO DOS BOTOES DA PÁGINA */
+section.perguntas-frequentes div.conteudo div.botoes-iteracao{
+
+margin-left: 250px
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button{
+min-width: 750px;
+min-height: 80px;
+font-size: 20pt;
+color: white;
+/* background-color: dimgray;*/
+background-color: #3c3c3c;
+
+}
+
+/*ESPAÇAMENTO DA TAG I DENTRO DO BOTÃO*/
+section.perguntas-frequentes div.conteudo div.botoes-iteracao  i{
+/* padding-left: 70%;*/
+
+}
+
+section.perguntas-frequentes div.conteudo h2 { 
+margin-top: 60px;
+text-align: center;
+font-size: 40pt;
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button{
+margin: 5px;
+
+}
+
+/* alterando mouse nos botoes */
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button{ text-align: left; cursor: pointer;}
+/* icones do botão*/
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button i{
+
+}
+
+section.perguntas-frequentes div.formulario p.texto-formulario{ margin-left: 320px;  
+font-size: 14pt;
+margin-top: 60px;
+}
+section.perguntas-frequentes div.formulario form{ margin-left: 330px}
+section.perguntas-frequentes div.formulario form input{
+min-width: 400px;
+min-height: 60px;
+margin-bottom: 15px;
+cursor: pointer;
+}
+section.perguntas-frequentes div.formulario form button{
+   
+    min-width: 200px;
+    min-height: 60px;
+    font-size: 22px;
+    color: white;
+    background-color: red;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+/*  #3c3c3c cor do texto */
+
+footer section.conteudo p{
+
+margin-top: 60px;
+color: #3c3c3c ;
+font-size: 16pt;
+}
+footer section.conteudo{  margin-left: 200px; }
+
+footer section.conteudo section.links-1{
+
+margin-top: 30px;
+
+/* font-size: 16pt;*/
+}
+
+footer section.conteudo section.links-1 ul li a, footer section.conteudo section.links-2 ul li a,
+footer section.conteudo section.links-3 ul li a,footer section.conteudo section.links-4 ul li a{
+text-decoration: none;
+color: #3c3c3c;
+font-size: 16pt;
+
+}
+/**/
+footer section.conteudo section.links-2 {  margin-left: 300px; margin-top: -120px; }
+footer section.conteudo section.links-3 {  margin-left: 480px; margin-top: -100px; }
+footer section.conteudo section.links-4 {  margin-left: 720px; margin-top: -100px; }
+
+footer select.idioma{
+margin: 40px; margin-left: 5px;
+min-height: 40px;
+min-width: 160px;
+background-color: black;
+color: white;
+font-size: 16pt;
+}
+footer section.conteudo p.netflix{ margin-left: 200px;
+margin-top: -70px;
+}
+
+footer section.conteudo section.links-1 ul li a:hover,
+ footer section.conteudo section.links-2 ul li a:hover,
+footer section.conteudo section.links-3 ul li a:hover,
+footer section.conteudo section.links-4 ul li a:hover{
+    color: white
 }
