@@ -1,3 +1,5 @@
+/*  IMAGEM DO INICIO DA PAGINA */
+
 *{
     padding: 0;
     margin: 0;
@@ -145,7 +147,7 @@ section.assista-em-qualquer-aparelho div.textos p.quatro{
 /* COMPONENTE QUE CARREGÁRA IMAGENS DA PAGINA */
 section.assista-em-qualquer-aparelho div.iframe{
      margin-left: 750px;
-     margin-top: -160px;
+     margin-top: -240px;
 }
 
 
@@ -174,12 +176,12 @@ section.baixe-series
 
 
        section.baixe-series div.textos{
-           /*margin-top: 120px;*/ padding-top: 150px;
+           /*margin-top: 120px;*/ padding-top: 120px;
         margin-left: 750px;
        }
 
        section.baixe-series div.baixe-series{ margin-left: 70px; 
-       margin-top: -280px;
+       margin-top: -240px;
        }
 
        /* QUARTA SECTION DA PÁGINA */
@@ -191,7 +193,7 @@ section.baixe-series
 
                margin-left: 750px;
                /*margin-bottom: 120px;*/
-               margin-top: -200px;
+               margin-top: -300px;
             }
            section.assista-quando-quiser div.textos{
 
@@ -261,6 +263,27 @@ section.perguntas-frequentes div.conteudo div.botoes-iteracao button i{
 
 }
 
+
+/* REPOSICIONANDO TAGS I DENTRO DO BOTAO  */
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button.um i{
+margin-left: 490px;
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button.dois i{
+margin-left: 420px;
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button.tres i{
+margin-left: 460px;
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button.quatro i{
+margin-left: 390px;
+}
+
+section.perguntas-frequentes div.conteudo div.botoes-iteracao button.cinco i{
+margin-left: 292px;
+}
 section.perguntas-frequentes div.formulario p.texto-formulario{ margin-left: 320px;  
 font-size: 14pt;
 margin-top: 60px;
@@ -322,11 +345,4 @@ font-size: 16pt;
 }
 footer section.conteudo p.netflix{ margin-left: 200px;
 margin-top: -70px;
-}
-
-footer section.conteudo section.links-1 ul li a:hover,
- footer section.conteudo section.links-2 ul li a:hover,
-footer section.conteudo section.links-3 ul li a:hover,
-footer section.conteudo section.links-4 ul li a:hover{
-    color: white
 }
