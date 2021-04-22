@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/page.css">
-    <title>NetFlix</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <!-- teste com Bootstarp -->
+   
+    <title>Document</title>
     <style>
-/*  IMAGEM DO INICIO DA PAGINA */
-
 
     </style>
 </head>
@@ -21,7 +21,7 @@
         <header>
             <h1>NETFLIX</h1>
             <div class="botoes-header">
-            <select value="idioma" class="idioma" id="elemento" onchange="carregarDocumentoEmIngles()">
+            <select value="idioma" class="idioma">
                 <option value="Portugues">
                     
                     Portugues<i class="far fa-globe"></i>
@@ -79,10 +79,13 @@
             <p class="quatro">outros dispositivos.</p>
 
         </div>
+        <!-- ALTERANDO E TESTANDO CARROSEL BOOTSTRAP -->
         <div class="iframe">
            <img src="./img/flash.jpg" alt="">
            
         </div>
+        <!-- PARA TESTE BOOTSTRAP -->
+       
        
     </section>
 
@@ -119,11 +122,11 @@
         -->
            <!-- botoes da Pagina Iteracao com a Página -->
            <div class="botoes-iteracao">
-            <button>O que é a NetFlix?<i class="fas fa-plus"></i></button><br>
-            <button>Quanto Custa a NetFlix?<i class="fas fa-plus"></i></button><br>
-            <button>Onde Posso Assistir?<i class="fas fa-plus"></i></button><br>
-            <button>Como Faço para Cancelar?<i class="fas fa-plus"></i></button><br>
-            <button>O que eu posso assistir na NetFlix?<i class="fas fa-plus"></i></button>
+            <button class="um">O que é a NetFlix?<i class="fas fa-plus"></i></button><br>
+            <button class="dois">Quanto Custa a NetFlix?<i class="fas fa-plus"></i></button><br>
+            <button class="tres">Onde Posso Assistir?<i class="fas fa-plus"></i></button><br>
+            <button class="quatro">Como Faço para Cancelar?<i class="fas fa-plus"></i></button><br>
+            <button class="cinco">O que eu posso assistir na NetFlix?<i class="fas fa-plus"></i></button>
         </div>
        </div>
         
@@ -201,15 +204,6 @@
         </section>
     </footer>
     <script src="https://kit.fontawesome.com/b9a8056d7a.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-
-    <script>
-        $(document).ready( function() {
-    $("#load_home").on("change", function() {
-        $("#elemento").load("page.html");
-    });
-});
-    </script>
-    <script src="./js/teste.js"></script>
+    
 </body>
 </html>
