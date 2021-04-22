@@ -346,3 +346,13 @@ font-size: 16pt;
 footer section.conteudo p.netflix{ margin-left: 200px;
 margin-top: -70px;
 }
+
+
+/* ALTERANDO COR AO PASSAR O MOUSE NOS LINKS DO FOOTER */
+footer section.conteudo section.links-1 ul li a:hover,
+footer section.conteudo section.links-2 ul li a:hover,
+footer section.conteudo section.links-3 ul li a:hover,
+footer section.conteudo section.links-4 ul li a:hover{
+  
+    color: white;
+}
