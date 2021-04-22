@@ -13,3 +13,13 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+function redirecionar()
+{
+    window.location.href = 'page.html';
+}
+
+function redirecionarOutro()
+{
+    window.location.href = 'index.html';
+}
