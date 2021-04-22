@@ -21,7 +21,7 @@
         <header>
             <h1>NETFLIX</h1>
             <div class="botoes-header">
-            <select value="idioma" class="idioma">
+            <select value="idioma" class="idioma" id="elemento" onchange="return carregarDocumentoEmIngles()">
                 <option value="Portugues">
                     
                     Portugues<i class="far fa-globe"></i>
@@ -201,6 +201,15 @@
         </section>
     </footer>
     <script src="https://kit.fontawesome.com/b9a8056d7a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+    <script>
+        $(document).ready( function() {
+    $("#load_home").on("change", function() {
+        $("#elemento").load("page.html");
+    });
+});
+    </script>
     <script src="./js/teste.js"></script>
 </body>
 </html>
